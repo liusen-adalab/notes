@@ -1,0 +1,12 @@
+<style>
+node{
+    BackgroundColor lightGreen
+    LineColor transparent
+}
+leafNode{
+    FontColor red
+}
+arrow{
+    LineColor green
+}
+</style>
