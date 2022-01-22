@@ -1,0 +1,4 @@
+- resulting in **a small handful of** entities dominating the network
+- Originally we **were supposed to**(应该) have an office hours session last week on mining pools but we decided to postpone that **for the time being**(暂时).
+- We’d also like to apologize 
+- TBD: to be decide || to be determined
