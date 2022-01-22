@@ -1,0 +1,3 @@
+- Am I missing something obvious here? It seems like this should be fine.
+- without the need for any personal identification
+- without the need for a trusted intermediary
