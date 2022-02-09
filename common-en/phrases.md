@@ -1,4 +1,11 @@
 - resulting in **a small handful of** entities dominating the network
 - Originally we **were supposed to**(应该) have an office hours session last week on mining pools but we decided to postpone that **for the time being**(暂时).
 - We’d also like to apologize 
-- TBD: to be decide || to be determined
+- **TBD**: to be decide || to be determined
+- **keep the tone respectful**, please
+- Any decision we make **is bound to**(必然) create winners and losers,
+- This **applies to**(适用) the **vast majority of**(大多数) people in this channel
+- But they have **better** things to do **than** spend Saturday **sifting through shitposting**(屎里淘金) on our own Discord server
+- For the story of why RocksDB was created **in the first place**(最初)
+- You **almost definitely** want to call this function if your system **is bottlenecked** by RocksDB.
+- we've decided to **reverse course** and keep the original stated end date for the incentivized testnet. So the incentive period for testnet2 will end on February 15 as originally stated **as opposed to**(而不是) the January 31 date announced last week
