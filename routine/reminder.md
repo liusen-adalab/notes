@@ -10,5 +10,18 @@
         - [ ] 哈希锁定(Hash-locking)
         - [ ] 分布式私钥控制(Distributed private key control)
         - [ ] “公证人机制+侧链”混合技术
-    - [ ] 分片(sharding)
+    - [x] 分片(sharding)
     - [x] 闪电网络(Lightning Network): 基于智能合约的状态通道应用 (属于侧链)
+
+
+## 2.10
+- [x] 智能合约
+    - [x] 比特币
+    - [x] 以太坊
+- [x] PoS
+- [ ] 零币和零钞
+
+## 2.11
+了解市场交易的基本概念，搜集信息来源渠道
+- [x] K 线
+- [ ] 信息来源
