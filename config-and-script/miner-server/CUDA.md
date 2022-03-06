@@ -27,9 +27,10 @@ sudo sh cuda_11.2.2_460.32.03_linux.run
 2.3 UNCHECK the option of installing the driver!!!
 
 2.4 Add the new Cuda paths to your /.bashrc or /etc/environment file.
-
+```
 PATH=/usr/local/cuda-11.2/bin
 LD_LIBRARY_PATH=/usr/local/cuda-11.2/lib64
 CUDA_HOME=/usr/local/cuda
+```
 2.5 Verify Cuda 11.2 installation
 nvcc --version
