@@ -1,3 +1,4 @@
+## ~/.cargo/config
 [source.crates-io]
 replace-with = 'rsproxy'
 
