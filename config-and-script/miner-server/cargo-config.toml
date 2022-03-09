@@ -1,9 +1,15 @@
 ## ~/.cargo/config
 [source.crates-io]
-replace-with = 'rsproxy'
+replace-with = 'ustc'
 
 [source.rsproxy]
 registry = "https://rsproxy.cn/crates.io-index"
+
+[source.ustc]
+registry = "git://mirrors.ustc.edu.cn/crates.io-index"
+
+[http]
+multiplexing = false         # HTTP/2 multiplexing
 
 [net]
 git-fetch-with-cli = true
