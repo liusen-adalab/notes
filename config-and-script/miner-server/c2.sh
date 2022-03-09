@@ -16,25 +16,29 @@ export FIL_PROOFS_PARAMETER_CACHE="/home/ceshi/.storage/filecoin-proof-parameter
 
 ## log 
 export GOLOG_LOG_LEVEL=info
-export GOLOG_FILE=./bench.log
+#export GOLOG_FILE=./bench.log
 
 ## CUDA
 export BELLMAN_CUDA_NVCC_ARGS="--fatbin --gpu-architecture=sm_70 --generate-code=arch=compute_70,code=sm_70"
 export NEPTUNE_CUDA_NVCC_ARGS="--fatbin --gpu-architecture=sm_70 --generate-code=arch=compute_70,code=sm_70"
 export FIL_PROOFS_VERIFY_CACHE=1
-export CUDA_VISIBLE_DEVICES=1
-export GPU_DEVICE_ORDINAL=1
+#export CUDA_VISIBLE_DEVICES=1
+#export GPU_DEVICE_ORDINAL=1
 
-## log memory 
+## log cpu and gpu memory 
 mlog="./mem.log"
+glog="./glog.log"
 n=0
+{
 echo "      date     time $(free -m | grep total | sed -E 's/^    (.*)/\1/g')" > $mlog
-while [[ $n -lt 600 ]]
+while [[ $n -lt 900 ]]
 do
     echo "$(date '+%Y-%m-%d %H:%M:%S') $(free -m | grep Mem: | sed 's/Mem://g')" >> $mlog
+    nvidia-smi --query-gpu=utilization.gpu,utilization.memory,memory.total,memory.free,memory.used --format=csv >> $glog
     n=`expr $n + 1`
     sleep 1
 done
+}&
 
 ## run
 ./lotus-bench prove ./32Gproof.json > ./bench-debug.log 2>> ./bench-debug.log
