@@ -16,7 +16,7 @@ export FIL_PROOFS_PARAMETER_CACHE="/home/ceshi/.storage/filecoin-proof-parameter
 
 ## log 
 export GOLOG_LOG_LEVEL=info
-#export GOLOG_FILE=./bench.log
+export RUST_LOG=info
 
 ## CUDA
 export BELLMAN_CUDA_NVCC_ARGS="--fatbin --gpu-architecture=sm_70 --generate-code=arch=compute_70,code=sm_70"
@@ -31,6 +31,7 @@ mkdir $dir
 mlog="${dir}/mem.log"
 glog="${dir}/glog.log"
 lotuslog="${dir}/lotus.log"
+export GOLOG_FILE=$lotuslog
 
 n=0
 {
