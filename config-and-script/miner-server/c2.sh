@@ -26,7 +26,7 @@ export FIL_PROOFS_VERIFY_CACHE=1
 #export GPU_DEVICE_ORDINAL=1
 
 ## log cpu and gpu memory 
-dir=`date +"%m-%d-%H-%M"`
+dir=LOG/`date +"%m-%d-%H-%M"`
 mkdir $dir
 mlog="${dir}/mem.log"
 glog="${dir}/glog.log"
