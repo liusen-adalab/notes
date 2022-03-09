@@ -19,5 +19,10 @@ export FIL_PROOFS_PARAMETER_CACHE="/home/ceshi/.storage/filecoin-proof-parameter
 export GOLOG_LOG_LEVEL=info
 export GOLOG_FILE=./bench.log
 
+## CUDA
+export BELLMAN_CUDA_NVCC_ARGS="--fatbin --gpu-architecture=sm_70 --generate-code=arch=compute_70,code=sm_70"
+export NEPTUNE_CUDA_NVCC_ARGS="--fatbin --gpu-architecture=sm_70 --generate-code=arch=compute_70,code=sm_70"
+export FIL_PROOFS_VERIFY_CACHE=
+
 ## run
 ./lotus-bench sealing --storage-dir "./bench-dir" --sector-size 32GiB --save-commit2-input "./32Gproof.json" --parallel 1
