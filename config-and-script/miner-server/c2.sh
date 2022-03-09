@@ -30,6 +30,7 @@ dir=`date +"%m-%d-%H-%M"`
 mkdir $dir
 mlog="${dir}/mem.log"
 glog="${dir}/glog.log"
+lotuslog="${dir}/lotus.log"
 
 n=0
 {
@@ -44,4 +45,4 @@ done
 }&
 
 ## run
-./lotus-bench prove ./32Gproof.json > ./bench-debug.log 2>> ./bench-debug.log
+./lotus-bench prove ./32Gproof.json > $lotuslog 2>> $lotuslog
