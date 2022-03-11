@@ -15,7 +15,7 @@ alias proxy='
 '
 alias unproxy='
     unset http_proxy;
-    unset http_proxy;
+    unset https_proxy;
     unset all_proxy;
 '
 #######################################################################
