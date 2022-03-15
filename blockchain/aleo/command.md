@@ -14,14 +14,14 @@ cp -r ledger-2 $HOME/.aleo/storage
 - admin all_block_mined: curl -XGET 'http://127.0.0.1:8080/admin/all_blocks_mined'
 
 ## Start Haruka pool
-1.  
+1. operator
 ./snarkos --operator aleo1n23hkd9cvqjr2wrx8lcv98e3hgh0ksusj8ps5nlh0eyrpkrtqcxqhdhcqj --trial --verbosity 1
 
 2. server
 RUST_BACKTRACE=1 ./aleo-pool --api-port 8080 --operator 127.0.0.1:4132 --port 9090
 
 3. prover
-RUST_BACKTRACE=1 ./aleo-prover- -a aleo1j9tthvexfs2232247jc8wencgslsnydhyx3vvr7vv7mruqeptgpq4ektaj -p 127.0.0.1:9090
+RUST_BACKTRACE=1 ./prover -a aleo1j9tthvexfs2232247jc8wencgslsnydhyx3vvr7vv7mruqeptgpq4ektaj -p 127.0.0.1:9090
 
 ## Start official pool
 ```
