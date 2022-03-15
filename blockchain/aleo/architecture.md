@@ -8,3 +8,5 @@ PC2 (miners): cargo run --release -- --prover ${MINER_ADDRESS} --pool $OPERATOR_
 ```
 -  Is that Ok to use the same aleo address for Operator and Prover?
 > https://discord.com/channels/700454073459015690/836382809035636737/928690015402356757
+
+```
