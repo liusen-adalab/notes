@@ -4,8 +4,8 @@
     ./clash -d .
 3. alias
 ```
-alias clash_start="./clash -d . &"
-alias clash_stop="pkill clash"
+alias clash="./clash -d . &"
+alias unclash="pkill clash"
 alias proxy="export http_proxy=http://127.0.0.1:7890 && export https_proxy=http://127.0.0.1:7890"
 alias unproxy="unset http_proxy https_proxy"
 ```
