@@ -1,11 +1,12 @@
-1. github release || 阿里云
+## Command line
+1. download clash from github release || 阿里云
     https://github.com/Dreamacro/clash/releases
 2. start in current folder
     ./clash -d .
-3. alias
+3. add alias to .bashrc
 ```
 alias clash="./clash -d . &"
 alias unclash="pkill clash"
-alias proxy="export http_proxy=http://127.0.0.1:7890 && export https_proxy=http://127.0.0.1:7890"
-alias unproxy="unset http_proxy https_proxy"
+alias proxy="export all_proxy=http://127.0.0.1:7890"
+alias unproxy="unset all_proxy"
 ```

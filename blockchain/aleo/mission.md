@@ -1,4 +1,4 @@
-## Haruka
+## Haruka Pool
 - [x] 网络架构
     - 单独运行一个 node server，作为一个假节点与 operator 连接，由 operator 与网络同步
     - server 从 operator 获取 block_template，分发给 prover
@@ -17,6 +17,26 @@
     - tokio 异步
 - [x] 每个 prover 每个块只能提交一次吗
     - prover 会一直计算并提交，直到收到新的任务
+## Haruka Prover
+- pool status
+  running  ready
+
+normal: 
+init: (terminate: false, ready: true)
+b1: (f, t ready) -> (f, f running)
+b2: (t, f killing) -> waiting.. -> (t, t killed) ->  (f, t ready) -> (f, f running)
+b3: (t, f killing) -> waiting.. -> (t, t killed) ->  (f, t ready) -> (f, f running)
+
+concurrent
+init: (f, f)
+b2: (t, f killing) -> (t, t killed) -> waiting.. ->  (f, t ready) 
+b3: (t, f killing) -> (t, t killed) -> waiting.. ->  (f, t ready) 
+    b2 first:
+        (f, f) -> (f, t ready)
+        b4: ready -> (b4: f, f running) -> (b3: f, t)
+
+
+
 
 ## Haruka Bug
 - [ ] canonical error
@@ -30,3 +50,5 @@
 
 ## Stratum
 - Miners have the ability to choose their own work (i.e. choose their own transaction set)
+
+## 

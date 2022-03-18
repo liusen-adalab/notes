@@ -1,7 +1,7 @@
 #---------------------------------------------------#
-## 更新：2022-03-11 09:36:04
+## 更新：2022-03-18 06:17:25
 ## 感谢：https://github.com/Hackl0us/SS-Rule-Snippet
-## 链接：https://tanz.dog/link/qTGX5UY1QHXUe0RG?clash=1
+## 链接：https://tanz.dog/link/tdHeKUPaJrjpdOtr?clash=1
 #---------------------------------------------------#
 
 # HTTP 代理端口
@@ -34,27 +34,27 @@ secret: ''
 
 
 proxies:
-  - {"name":"标准|香港01解锁|T507","type":"vmess","server":"tanz-cn1.ddnsnode.com","port":35009,"uuid":"f2ad4004-0e73-3594-a8d9-870818e0034d","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"标准|香港02解锁|T508","type":"vmess","server":"tanz-cn2.ddnsnode.com","port":35010,"uuid":"f2ad4004-0e73-3594-a8d9-870818e0034d","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"标准|香港03解锁|T509","type":"vmess","server":"tanz-cn3.ddnsnode.com","port":35011,"uuid":"f2ad4004-0e73-3594-a8d9-870818e0034d","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"标准|香港04解锁|T510","type":"vmess","server":"tanz-cn4.ddnsnode.com","port":35012,"uuid":"f2ad4004-0e73-3594-a8d9-870818e0034d","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"标准|中国台湾01解锁|T601","type":"vmess","server":"tanz-cn1.ddnsnode.com","port":35067,"uuid":"f2ad4004-0e73-3594-a8d9-870818e0034d","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"标准|中国台湾02解锁|T602","type":"vmess","server":"tanz-cn2.ddnsnode.com","port":35068,"uuid":"f2ad4004-0e73-3594-a8d9-870818e0034d","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"标准|中国台湾03解锁|T603","type":"vmess","server":"tanz-cn3.ddnsnode.com","port":35069,"uuid":"f2ad4004-0e73-3594-a8d9-870818e0034d","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"标准|中国台湾04解锁|T604","type":"vmess","server":"tanz-cn4.ddnsnode.com","port":35070,"uuid":"f2ad4004-0e73-3594-a8d9-870818e0034d","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"标准|中国台湾05解锁|T605","type":"vmess","server":"tanz-cn5.ddnsnode.com","port":35071,"uuid":"f2ad4004-0e73-3594-a8d9-870818e0034d","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"标准|日本01解锁|T505","type":"vmess","server":"tanz-cn1.ddnsnode.com","port":35005,"uuid":"f2ad4004-0e73-3594-a8d9-870818e0034d","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"标准|日本02解锁|T506","type":"vmess","server":"tanz-cn2.ddnsnode.com","port":35006,"uuid":"f2ad4004-0e73-3594-a8d9-870818e0034d","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"标准|美国01解锁|T503","type":"vmess","server":"all-us.ddnsnode.com","port":35019,"uuid":"f2ad4004-0e73-3594-a8d9-870818e0034d","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"标准|美国02解锁|T504","type":"vmess","server":"all-us.ddnsnode.com","port":35020,"uuid":"f2ad4004-0e73-3594-a8d9-870818e0034d","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"标准|新加坡01解锁|T511","type":"vmess","server":"tanz-unicom.ddnsnode.com","port":35013,"uuid":"f2ad4004-0e73-3594-a8d9-870818e0034d","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"标准|新加坡02解锁|T512","type":"vmess","server":"tanz-unicom.ddnsnode.com","port":35014,"uuid":"f2ad4004-0e73-3594-a8d9-870818e0034d","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"标准|印度01|T519","type":"vmess","server":"tanz-unicom.ddnsnode.com","port":35021,"uuid":"f2ad4004-0e73-3594-a8d9-870818e0034d","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"标准|印度02|T520","type":"vmess","server":"tanz-unicom.ddnsnode.com","port":35022,"uuid":"f2ad4004-0e73-3594-a8d9-870818e0034d","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"标准|德国01|T515","type":"vmess","server":"tanz-unicom.ddnsnode.com","port":35017,"uuid":"f2ad4004-0e73-3594-a8d9-870818e0034d","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"标准|德国02|T516","type":"vmess","server":"tanz-unicom.ddnsnode.com","port":35018,"uuid":"f2ad4004-0e73-3594-a8d9-870818e0034d","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"标准|英国01|T521","type":"vmess","server":"tanz-unicom.ddnsnode.com","port":35023,"uuid":"f2ad4004-0e73-3594-a8d9-870818e0034d","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"标准|英国02|T522","type":"vmess","server":"tanz-unicom.ddnsnode.com","port":35034,"uuid":"f2ad4004-0e73-3594-a8d9-870818e0034d","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"标准|香港01解锁|T507","type":"vmess","server":"tanz-moble.0098dns01in.work","port":35009,"uuid":"b83d0e8b-f4e6-3988-b45e-cc96400f0bc6","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"标准|香港02解锁|T508","type":"vmess","server":"tanz-moble.0098dns01in.work","port":35010,"uuid":"b83d0e8b-f4e6-3988-b45e-cc96400f0bc6","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"标准|香港03解锁|T509","type":"vmess","server":"tanz-moble.0098dns01in.work","port":35011,"uuid":"b83d0e8b-f4e6-3988-b45e-cc96400f0bc6","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"标准|香港04解锁|T510","type":"vmess","server":"tanz-moble.0098dns01in.work","port":35012,"uuid":"b83d0e8b-f4e6-3988-b45e-cc96400f0bc6","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"标准|中国台湾01解锁|T601","type":"vmess","server":"tanz-moble.0098dns01in.work","port":35067,"uuid":"b83d0e8b-f4e6-3988-b45e-cc96400f0bc6","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"标准|中国台湾02解锁|T602","type":"vmess","server":"tanz-moble.0098dns01in.work","port":35068,"uuid":"b83d0e8b-f4e6-3988-b45e-cc96400f0bc6","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"标准|中国台湾03解锁|T603","type":"vmess","server":"tanz-moble.0098dns01in.work","port":35069,"uuid":"b83d0e8b-f4e6-3988-b45e-cc96400f0bc6","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"标准|中国台湾04解锁|T604","type":"vmess","server":"tanz-moble.0098dns01in.work","port":35070,"uuid":"b83d0e8b-f4e6-3988-b45e-cc96400f0bc6","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"标准|中国台湾05解锁|T605","type":"vmess","server":"tanz-moble.0098dns01in.work","port":35071,"uuid":"b83d0e8b-f4e6-3988-b45e-cc96400f0bc6","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"标准|日本01解锁|T505","type":"vmess","server":"tanz-unicom.0098dns01in.work","port":35005,"uuid":"b83d0e8b-f4e6-3988-b45e-cc96400f0bc6","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"标准|日本02解锁|T506","type":"vmess","server":"tanz-unicom.0098dns01in.work","port":35006,"uuid":"b83d0e8b-f4e6-3988-b45e-cc96400f0bc6","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"标准|美国01解锁|T503","type":"vmess","server":"tanz-unicom.0098dns01in.work","port":35019,"uuid":"b83d0e8b-f4e6-3988-b45e-cc96400f0bc6","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"标准|美国02解锁|T504","type":"vmess","server":"tanz-unicom.0098dns01in.work","port":35020,"uuid":"b83d0e8b-f4e6-3988-b45e-cc96400f0bc6","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"标准|新加坡01解锁|T511","type":"vmess","server":"tanz-moble.0098dns01in.work","port":35013,"uuid":"b83d0e8b-f4e6-3988-b45e-cc96400f0bc6","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"标准|新加坡02解锁|T512","type":"vmess","server":"tanz-moble.0098dns01in.work","port":35014,"uuid":"b83d0e8b-f4e6-3988-b45e-cc96400f0bc6","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"标准|印度01|T519","type":"vmess","server":"tanz-unicom.0098dns01in.work","port":35021,"uuid":"b83d0e8b-f4e6-3988-b45e-cc96400f0bc6","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"标准|印度02|T520","type":"vmess","server":"tanz-unicom.0098dns01in.work","port":35022,"uuid":"b83d0e8b-f4e6-3988-b45e-cc96400f0bc6","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"标准|德国01|T515","type":"vmess","server":"tanz-unicom.0098dns01in.work","port":35017,"uuid":"b83d0e8b-f4e6-3988-b45e-cc96400f0bc6","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"标准|德国02|T516","type":"vmess","server":"tanz-unicom.0098dns01in.work","port":35018,"uuid":"b83d0e8b-f4e6-3988-b45e-cc96400f0bc6","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"标准|英国01|T521","type":"vmess","server":"tanz-unicom.0098dns01in.work","port":35023,"uuid":"b83d0e8b-f4e6-3988-b45e-cc96400f0bc6","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"标准|英国02|T522","type":"vmess","server":"tanz-unicom.0098dns01in.work","port":35034,"uuid":"b83d0e8b-f4e6-3988-b45e-cc96400f0bc6","alterId":0,"cipher":"auto","udp":true}
 
 proxy-groups:
 -
